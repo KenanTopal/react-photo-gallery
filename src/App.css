@@ -2,6 +2,27 @@
   text-align: center;
 }
 
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 10px;
+  overflow: hidden;
+}
+
+img{
+  width: 10rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+img:hover{
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
